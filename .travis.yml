@@ -1,7 +1,7 @@
 language: java
 cache:
   directories:
-  - play-${PLAY_VERSION}
+  - .sbt
 env:
   - PLAY_VERSION=2.2.1
 before_script:
